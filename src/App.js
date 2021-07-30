@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Button } from 'react-bootstrap';
+import { Button } from '@material-ui/core';
 import './index.css';
 
 export default function App() {
@@ -92,7 +92,7 @@ const ContactContainer = () =>{
 
         <input type='text' placeholder='email address' className='input-field'/>
         <textare name='' id='' cols='30' rows='10' placeholder='comment'></textare>
-        <Button className='contact-btn'>Send</Button>
+        <Button color="primary">Hello World</Button>
       </div>
       </div>
     </div>
